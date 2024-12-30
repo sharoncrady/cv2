@@ -12,8 +12,7 @@ div-dimensions {
 
 footer {
   position: fixed;
+  position: centered;
   bottom: 0;
-  left: 0;
-  width: 100;
   text align: center;
 }
