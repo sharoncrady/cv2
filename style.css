@@ -26,7 +26,7 @@ page2 {
   text-align: center;
 }
 
-.row {
+.column {
   float: left;
   width: 33.33%;
   padding: 5px;
