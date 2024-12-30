@@ -11,8 +11,6 @@ div-dimensions {
 }
 
 footer {
-  position: fixed;
   position: centered;
-  bottom: 0;
-  text align: center;
-}
+}  
+
