@@ -37,3 +37,8 @@ page2 {
   clear: both;
   display: table;
 }
+
+img {
+  height: 150px;
+  width: 150px;
+}
