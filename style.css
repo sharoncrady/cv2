@@ -16,6 +16,8 @@ footer {
   left: 0;
   width: 100%;
   text-align: center;
+  padding: 20px;
+  background-color: lightblue; /* match your theme */
 }
 
 page2 {
@@ -59,3 +61,4 @@ page4 {
   width: 100%;
   text-align: center;
 }
+
