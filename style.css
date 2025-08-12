@@ -10,15 +10,7 @@ div-dimensions {
   text align: center;
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  padding: 20px;
-  margin-top: 100%;
-}
+
 
 page2 {
   position: fixed;
@@ -82,13 +74,19 @@ main {
 }
 
 
+/* Footer styling */
 footer {
   text-align: center;
-  padding: 12px;       /* background-color: lightblue;  <-- optional if you want color */
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background: purple;         /* or your color */
-  border-top: 1px solid #ddd;
+  padding: 15px;
+  background-color: white; /* change if you want footer colored */
+  border-top: 1px solid #ccc;
+}
+
+/* Light purple background just for Page 4 */
+body.page4 {
+  background-color: #e6ccff;  /* soft lavender */
+  min-height: 100vh;          /* full height */
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
