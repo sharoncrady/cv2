@@ -64,3 +64,31 @@ page4 {
 
 
 
+html, body {
+  height: 100%;
+}
+
+
+body {
+  min-height: 100vh;
+  margin: 0;                 /* important: remove default body margin */
+  display: flex;
+  flex-direction: column;    /* stack main then footer */
+}
+
+
+main {
+  flex: 1;                   /* this pushes the footer to the bottom */
+}
+
+
+footer {
+  text-align: center;
+  padding: 12px;       /* background-color: lightblue;  <-- optional if you want color */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: purple;         /* or your color */
+  border-top: 1px solid #ddd;
+}
