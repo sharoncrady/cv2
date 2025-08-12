@@ -74,12 +74,14 @@ main {
 }
 
 
-/* Footer styling */
 footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   text-align: center;
-  padding: 15px;
-  background-color: white; /* change if you want footer colored */
-  border-top: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 100%;
 }
 
 /* Light purple background just for Page 4 */
@@ -90,3 +92,4 @@ body.page4 {
   display: flex;
   flex-direction: column;
 }
+
