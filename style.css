@@ -77,70 +77,19 @@ main {
 
 
 footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
+  position: auto;
+  bottom: 0px;
+  left: 0px;
   width: 100%;
   text-align: center;
-  padding: 20px;
-  margin-top: 100%;
 }
-
-
-
-
-
 
   
 
 
-/* Sticky footer setup for Page 4 */
-body.page4 {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* full viewport height */
-  margin: 0;         /* remove browser default margins */
-}
-
-body.page4 main {
-  flex: 1; /* pushes footer down */
-}
-
-body.page4 footer {
-  text-align: center;
-  padding: 15px;
-  border-top: 1px solid #ccc;
-}
 
 
 
 
 
 
-/* Sticky footer layout for Page 3 */
-body.page3 {
-  min-height: 100vh;       /* make sure body fills screen */
-  margin: 0;               /* remove default margins */
-  display: flex;
-  flex-direction: column;  /* stack main then footer */
-}
-
-body.page3 main {
-  flex: 1;                 /* push footer down */
-  text-align: center;      /* replaces <center> */
-  padding: 20px;
-}
-
-body.page3 footer {
-  text-align: center;
-  padding: 12px;
-  border-top: 1px solid #ccc;
-}
-
-body.page3 footer a {
-  display: inline-block;
-  margin: 0 10px;
-  text-decoration: none;
-  color: darkblue;
-  font-weight: bold;
-}
